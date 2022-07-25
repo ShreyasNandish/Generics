@@ -1,7 +1,7 @@
 package com.bridgelabz.Generics;
 
-public class IntMax {
-    void intMax(Integer val1,Integer val2,Integer val3)
+public class FloatMax {
+    void floatMax(Float val1,Float val2,Float val3)
     {
         if((val1.compareTo(val2))>=0 && (val1.compareTo(val3))>=0)
             System.out.println("The first number is largest among 3 numbers ");
