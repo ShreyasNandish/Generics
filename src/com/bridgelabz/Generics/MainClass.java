@@ -2,12 +2,12 @@ package com.bridgelabz.Generics;
 
 public class MainClass {
     public static void main(String[] args) {
-        IntMax intmax = new IntMax();
+        FloatMax floatmax = new FloatMax();
         System.out.println("Test case 1 :");
-        intmax.intMax(1,2,3);
+        floatmax.floatMax(3.0f,2.0f,1.0f);
         System.out.println("Test case 2 :");
-        intmax.intMax(4,9,6);
+        floatmax.floatMax(2.0f,3.0f,1.0f);
         System.out.println("Test case 3 :");
-        intmax.intMax(8,10,5);
+        floatmax.floatMax(1.0f,2.0f,3.0f);
     }
 }
